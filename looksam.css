@@ -124,3 +124,15 @@ header #header-bar #header-top-notice strong.notice-badge{
 span.a-badge i.fa.fa-star{
   background-repeat: no-repeat;
 }
+
+#main .menu-wrapper>a>em{
+    color : rgb(210,177,109);
+}
+
+#main .menu-wrapper .spacer{
+    background:rgb(210,177,109);
+}
+
+#main .menu-wrapper{
+    border-right:none;
+}
