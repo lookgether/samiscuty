@@ -136,3 +136,7 @@ span.a-badge i.fa.fa-star{
 #main .menu-wrapper{
     border-right:none;
 }
+
+.nav-link{
+    color : #050000;
+}
