@@ -23,17 +23,15 @@ header .row>div:nth-child(1)>a img {
 }
 
 #viewers{
-  visibility: hidden;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "다들 로즈데이인데 데이트 하고 오셨겠죠?";
+    content: "룩숭이";
     cursor: text;
-    visibility: visible;
-    font-weight: bold;
+
 }
 #board-info #viewers-area #viewers:after {
-    /* content: "마리"; */
+    content: "마리가 룩마갤 불태우는 중";
     cursor: text;
 }
 #board-info #viewers-area .fa-user:before {
