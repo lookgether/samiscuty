@@ -138,7 +138,7 @@ span.a-badge i.fa.fa-star{
 .nav-link{
     color : #000 !important;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body {
       background: none !important;
    }
@@ -147,4 +147,12 @@ span.a-badge i.fa.fa-star{
      background-size: auto 40px;
    }
 
+   #board-info #viewers-area #viewers:after{
+     display: none;
+   }
+   #board-info #viewers-area #viewers:before{
+     display: none;
+   }
+
 }
+
