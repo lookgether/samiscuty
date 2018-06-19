@@ -138,3 +138,13 @@ span.a-badge i.fa.fa-star{
 .nav-link{
     color : #000 !important;
 }
+@media (max-width: 720px) {
+  body {
+      background: none !important;
+   }
+   header>#header-area>a>h1{
+     background: url(https://lookgether.github.io/samiscuty/logo2.png) no-repeat;
+     background-size: auto 40px;
+   }
+
+}
