@@ -138,7 +138,7 @@ span.a-badge i.fa.fa-star{
 .nav-link{
     color : #000 !important;
 }
-@media (max-width: 720px) {
+@media (max-width: 500px) {
   body {
       background: none !important;
    }
