@@ -145,6 +145,7 @@ span.a-badge i.fa.fa-star{
    header>#header-area>a>h1{
      background: url(https://lookgether.github.io/samiscuty/logo3.png) no-repeat;
      background-size: auto 40px;
+   width: 220px;
    }
 
    #board-info #viewers-area #viewers:after{
