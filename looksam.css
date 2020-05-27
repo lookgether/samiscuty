@@ -155,3 +155,106 @@ span.a-badge i.fa.fa-star{
    }
 
 }
+        #article-content-wrapper>.vote-area{
+        width: 288px;
+        height: 110px;
+        margin: 0 auto 36px;
+        padding-top: 19px;
+        border: 1px solid #c4c4c4;
+        border-radius: 2px;
+    }
+    #article-content-wrapper .btn-outline-success, #article-content-wrapper .btn-outline-success:hover, #article-content-wrapper .btn-outline-success:focus, #article-content-wrapper .btn-outline-success:active {
+        position: relative;
+        color: white;
+        border:none;
+        background-color: white;
+        outline: none;
+        box-shadow: none;
+    }
+    #article-content-wrapper .btn-outline-success > i {
+        right: 21px;
+        top: 13px;
+        z-index: 999;
+        position: absolute;
+        color: white;
+        font-size: 27px;
+    }
+    #article-content-wrapper .btn-outline-success > i::before{
+        content: "\f005";
+    }
+    #article-content-wrapper .btn-outline-success > span{
+        left: -50px;
+        position: absolute;
+        color: #d31900;
+        font-size: 18px;
+        line-height: 56px;
+    }
+    #article-content-wrapper .btn-outline-success > span::before{
+        float: right;
+        content: "개념";
+        padding-top: 13px;
+        font-size: 12px;
+        line-height: 56px;
+        margin-left: 20px;
+        background-color: rgb(74, 87, 167);
+        color: white;
+        width: 56px;
+        height: 56px;
+        border-radius: 56px;
+        display: block;
+    }
+
+    #article-content-wrapper .btn-outline-primary, #article-content-wrapper .btn-outline-primary:hover, #article-content-wrapper .btn-outline-primary:focus, #article-content-wrapper .btn-outline-primary:active {
+        position: relative;
+        color: white;
+        border:none;
+        background-color: white;
+        outline: none;
+        box-shadow: none;
+    }
+    #article-content-wrapper .btn-outline-primary > i {
+        right: -5.5px;
+        top: 13px;
+        z-index: 999;
+        position: absolute;
+        color: white;
+        font-size: 27px;
+    }
+    #article-content-wrapper .btn-outline-primary > i::before{
+        content: "\f063";
+    }
+    #article-content-wrapper .btn-outline-primary > span{
+        right: -50px;
+        position: absolute;
+        color: black;
+        font-size: 18px;
+        line-height: 56px;
+    }
+    #article-content-wrapper .btn-outline-primary > span::before{
+        float: left;
+        content: "비추";
+        padding-top: 13px;
+        font-size: 12px;
+        line-height: 56px;
+        margin-right: 20px;
+        background-color: grey;
+        color: white;
+        width: 56px;
+        height: 56px;
+        border-radius: 56px;
+        display: block;
+    }
+    #article-list #article-list-menu>.btn.best{
+        color: white;
+        font-size: 0;
+    }
+    #article-list #article-list-menu>.btn.best::after{
+        content: "개념글";
+        color: #efc839;
+        font-size: 12px;
+        margin-left: 2px;
+    }
+    #article-list #article-list-menu>.btn.best > i{
+        color:     #efc839;
+        font-size: 12px;
+    }
