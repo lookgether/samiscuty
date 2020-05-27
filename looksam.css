@@ -262,3 +262,11 @@ span.a-badge i.fa.fa-star{
         color:     #efc839;
         font-size: 12px;
     }
+
+    #article-list>.article-list-row.hot .list-header > b{
+        font-size: 0;
+    }
+    #article-list>.article-list-row.hot .list-header > b::after{
+        content: "개념";
+        font-size: 12px;
+    }
