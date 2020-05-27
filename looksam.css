@@ -1,4 +1,4 @@
-header .row>div:nth-child(1)>a {
+      header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     background: url(https://lookgether.github.io/samiscuty/logo2.png) no-repeat;
@@ -19,20 +19,28 @@ header .row>div:nth-child(1)>a img {
 }
 
 #viewers-area{
-    display: inline-block !important;
+    margin-right: 80px;
+    float: right;
 }
 
 #viewers{
+        line-height: 24px;
+        display: block;
+        float: right;
+        color: black !important;
 }
 
 #board-info #viewers-area #viewers:before {
     content: "룩숭이 ";
     cursor: text;
-
 }
 #board-info #viewers-area #viewers:after {
-    content: "마리 룩마갤 불태우는중";
+    content: "마리 갤질중";
     cursor: text;
+}
+#board-info #viewers-area .fa-user{
+        margin-top: 3px;
+        margin-right: 3px;
 }
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
@@ -74,9 +82,15 @@ header #header-bar>.row{
 }
 
 #board-info > img{
-  float:left !important;
+  float:right !important;
   margin-right: 10px;
+  width: 78px !important;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  border-radius: 0 !important;
 }
+#board-info #board-info-bottom #addFavoriteBtn
 
 #article-list-category{
   background: rgb(210,177,109) !important;
@@ -117,8 +131,11 @@ header #header-bar #header-top-notice strong.notice-badge{
 
 #board-info h1{
   border-color: rgb(123,126,105);
+  padding-bottom: 5px;
 }
-
+#board-info #board-info-bottom{
+        padding-top: 8px;
+}
 span.a-badge i.fa.fa-star{
   background-repeat: no-repeat;
 }
@@ -137,6 +154,16 @@ span.a-badge i.fa.fa-star{
 
 .nav-link{
     color : #000 !important;
+}
+#board-info h1>a::after{
+        content: " 마이너 갤러리";
+}
+#board-info h1>a{
+        color: #3c4790;
+        font-size: 24px;
+}
+#score-area{
+        display: none !important;
 }
 @media (max-width: 600px) {
   body {
@@ -157,7 +184,7 @@ span.a-badge i.fa.fa-star{
 }
        #article-content-wrapper>.vote-area{
         width: 288px;
-        height: 110px;
+        height: 98px;
         margin: 0 auto 36px;
         padding-top: 19px;
         border: 1px solid #c4c4c4;
@@ -171,10 +198,12 @@ span.a-badge i.fa.fa-star{
         outline: none;
         box-shadow: none;
         width: 120px;
+        height: 56px;
+        padding: 0;
     }
     #article-content-wrapper .btn-outline-success > i {
         right: 17px;
-        top: 13px;
+        top: 7px;
         z-index: 999;
         position: absolute;
         color: white;
@@ -187,6 +216,7 @@ span.a-badge i.fa.fa-star{
         left: -2px;
         position: absolute;
         color: #d31900;
+        top: 0;
         width: 120px;
         font-size: 18px;
         line-height: 56px;
@@ -214,10 +244,12 @@ span.a-badge i.fa.fa-star{
         outline: none;
         box-shadow: none;
         width: 120px;
+        height: 56px;
+        padding: 0;
     }
     #article-content-wrapper .btn-outline-primary > i {
         left: 18px;
-    top: 13px;
+    top: 7px;
     right: auto !important;
     z-index: 999;
     position: absolute;
@@ -232,6 +264,7 @@ span.a-badge i.fa.fa-star{
         color: black;
         width: 120px;
         font-size: 18px;
+        top: 0;
         line-height: 56px;
     }
     #article-content-wrapper .btn-outline-primary > span::before{
@@ -270,3 +303,24 @@ span.a-badge i.fa.fa-star{
         content: "개념";
         font-size: 12px;
     }
+
+    #board-info{
+        padding: 30px 1.5em;
+        padding-bottom: 1em;
+        height: auto !important;
+}
+/* PC ONLY */
+@media (min-width: 600px) {
+        #board-info #board-info-bottom #addFavoriteBtn{
+        position: absolute;
+        top: 30px;
+        left: 245px;
+        font-size: 0px;
+        border-right: 0px !important;
+        }
+        #board-info #board-info-bottom #addFavoriteBtn > i::before{
+                content: "\f02e";
+                font-size: 25px;
+                color: rgb(74, 87, 167);
+        }
+}
