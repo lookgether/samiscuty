@@ -319,6 +319,9 @@ span.a-badge i.fa.fa-star{
                 font-size: 25px;
                 color: rgb(74, 87, 167);
         }
+ #board-info #board-info-bottom #addFavoriteBtn > i.fa-star-o{
+                content: "\f097";                
+        }
         #board-info{
         padding: 30px 1.5em;
         padding-bottom: 1em;
