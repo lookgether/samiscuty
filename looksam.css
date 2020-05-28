@@ -155,13 +155,7 @@ span.a-badge i.fa.fa-star{
 .nav-link{
     color : #000 !important;
 }
-#board-info h1>a::after{
-        content: " 마이너 갤러리";
-}
-#board-info h1>a{
-        color: #3c4790;
-        font-size: 24px;
-}
+
 #score-area{
         display: none !important;
 }
