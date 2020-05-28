@@ -182,172 +182,28 @@ span.a-badge i.fa.fa-star{
    }
 
 }
-       #article-content-wrapper>.vote-area{
-        width: 288px;
-        height: 98px;
-        margin: 0 auto 36px;
-        padding-top: 19px;
-        border: 1px solid #c4c4c4;
-        border-radius: 2px;
-    }
-    #article-content-wrapper .btn-outline-success, #article-content-wrapper .btn-outline-success:hover, #article-content-wrapper .btn-outline-success:focus, #article-content-wrapper .btn-outline-success:active {
-        position: relative;
-        color: white;
-        border:none;
-        background-color: white;
-        outline: none;
-        box-shadow: none;
-        width: 120px;
-        height: 56px;
-        padding: 0;
-    }
-    #article-content-wrapper .btn-outline-success > i {
-        right: 17px;
-        top: 7px;
-        z-index: 999;
-        position: absolute;
-        color: white;
-        font-size: 27px;
-    }
-    #article-content-wrapper .btn-outline-success > i::before{
-        content: "\f005";
-    }
-    #article-content-wrapper .btn-outline-success > span{
-        left: -2px;
-        position: absolute;
-        color: #d31900;
-        top: 0;
-        width: 120px;
-        font-size: 18px;
-        line-height: 56px;
-    }
-    #article-content-wrapper .btn-outline-success > span::before{
-        float: right;
-        content: "개념";
-        padding-top: 13px;
-        font-size: 12px;
-        line-height: 56px;
-        margin-left: 20px;
-        background-color: rgb(74, 87, 167);
-        color: white;
-        width: 56px;
-        height: 56px;
-        border-radius: 56px;
-        display: block;
-    }
-
-    #article-content-wrapper .btn-outline-primary, #article-content-wrapper .btn-outline-primary:hover, #article-content-wrapper .btn-outline-primary:focus, #article-content-wrapper .btn-outline-primary:active {
-        position: relative;
-        color: white;
-        border:none;
-        background-color: white;
-        outline: none;
-        box-shadow: none;
-        width: 120px;
-        height: 56px;
-        padding: 0;
-    }
-    #article-content-wrapper .btn-outline-primary > i {
-        left: 18px;
-    top: 7px;
-    right: auto !important;
-    z-index: 999;
-    position: absolute;
-    color: white;
-    font-size: 27px;    }
-    #article-content-wrapper .btn-outline-primary > i::before{
-        content: "\f063";
-    }
-    #article-content-wrapper .btn-outline-primary > span{
-        right: -2px;
-        position: absolute;
-        color: black;
-        width: 120px;
-        font-size: 18px;
-        top: 0;
-        line-height: 56px;
-    }
-    #article-content-wrapper .btn-outline-primary > span::before{
-        float: left;
-        content: "비추";
-        padding-top: 13px;
-        font-size: 12px;
-        line-height: 56px;
-        margin-right: 20px;
-        background-color: grey;
-        color: white;
-        width: 56px;
-        height: 56px;
-        border-radius: 56px;
-        display: block;
-    }
-    #article-list #article-list-menu>.btn.best{
-        color: white;
-        font-size: 0;
-    }
-    #article-list #article-list-menu>.btn.best::after{
-        content: "개념글";
-        color: #efc839;
-        font-size: 12px;
-        margin-left: 2px;
-    }
-    #article-list #article-list-menu>.btn.best > i{
-        color:     #efc839;
-        font-size: 12px;
-    }
-
-    #article-list>.article-list-row.hot .list-header > b{
-        font-size: 0;
-    }
-    #article-list>.article-list-row.hot .list-header > b::after{
-        content: "개념";
-        font-size: 12px;
-    }
-
-    
-/* PC ONLY */
-@media (min-width: 600px) {
-        #board-info #board-info-bottom #addFavoriteBtn{
-        position: absolute;
-        top: 30px;
-        left: 245px;
-        font-size: 0px;
-        border-right: 0px !important;
-        }
-        #board-info #board-info-bottom #addFavoriteBtn > i::before{
-                content: "\f02e";
-                font-size: 25px;
-                color: rgb(74, 87, 167);
-        }
- #board-info #board-info-bottom #addFavoriteBtn > i.fa-star-o::before{
-                content: "\f097";                
-        }
-        #board-info{
-        padding: 30px 1.5em;
-        padding-bottom: 1em;
-        height: auto !important;
-}
+   
  #article-list-row-38855{
-        background-color: #ba000d !important;
-        color: white !important;
+        background-color: white !important;
+        color: black !important;
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-header>strong, #article-list>.article-list-row#article-list-row-38855>.item>.list-header>b{
-        color: white !important;
+        color: black !important;
         
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a, #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a:visited{
-        color: white !important;
+        color: black !important;
         font-size: 0;
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a::after{
-            content: "룩삼 트게더 시즌2 디자인 공모전 05-28 ~ 06-06.";
+            content: "룩삼 트게더 시즌2 디자인을 올려주세요. 05-28 ~ 06-06";
             font-size: 13px;
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer{
         border-right: 0;
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer.logged>span{
-        color: white !important;
+        color: black !important;
         font-size: 0;
     }
     #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer.logged>span::after{
