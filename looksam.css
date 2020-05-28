@@ -328,3 +328,36 @@ span.a-badge i.fa.fa-star{
         height: auto !important;
 }
 }
+    #article-list-row-38855{
+        background-color: #ba000d !important;
+        color: white !important;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-header>strong, #article-list>.article-list-row#article-list-row-38855>.item>.list-header>b{
+        color: white !important;
+        
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a, #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a:visited{
+        color: white !important;
+        font-size: 0;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>a::after{
+            content: "투표 진행해주시면 룩마갤 디자인은 민심을 따라가도록 하겠습니다.";
+            font-size: 13px;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer{
+        border-right: 0;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer.logged>span{
+        color: white !important;
+        font-size: 0;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer.logged>span::after{
+            content: "룩마갤 관리자";
+            font-size: 13px;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-title>.list-writer.logged>span>img{
+            display: none;
+    }
+    #article-list>.article-list-row#article-list-row-38855>.item>.list-time{
+        display: none;
+    }
