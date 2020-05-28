@@ -327,8 +327,7 @@ span.a-badge i.fa.fa-star{
         padding-bottom: 1em;
         height: auto !important;
 }
-}
-    #article-list-row-38855{
+ #article-list-row-38855{
         background-color: #ba000d !important;
         color: white !important;
     }
@@ -361,3 +360,5 @@ span.a-badge i.fa.fa-star{
     #article-list>.article-list-row#article-list-row-38855>.item>.list-time{
         display: none;
     }
+}
+    
