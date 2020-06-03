@@ -302,7 +302,9 @@
             #article-list>.article-list-row>.item>.list-title>a:visited {
                 color: white !important;
             }
-
+      #article-list>.article-list-row>.item>.list-title>a:visited{
+                color: grey !important;
+            }
             #article-list>.article-list-row.hot {
                 background-color: rgba(210, 177, 109, 0.4) !important;
 
