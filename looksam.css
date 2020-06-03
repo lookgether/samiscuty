@@ -541,11 +541,6 @@
                 color: blue !important;
             }
 
-            #article-list #article-list-menu>.btn.best {
-                color: white;
-                font-size: 0;
-            }
-
             #article-content-wrapper div.footer a {
                 background: rgb(150, 125, 77) !important;
                 border: 0;
