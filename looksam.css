@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+ @media (min-width: 600px) {
             header .row>div:nth-child(1)>a {
                 display: block;
                 height: 50px;
@@ -302,7 +302,8 @@
             #article-list>.article-list-row>.item>.list-title>a:visited {
                 color: white !important;
             }
-            #article-list>.article-list-row>.item>.list-title>a:visited{
+
+            #article-list>.article-list-row>.item>.list-title>a:visited {
                 color: grey !important;
             }
 
@@ -357,7 +358,7 @@
                 color: rgb(210, 177, 109) !important;
             }
 
-            form[action="https://tgd.kr/board/write/looksam"] *:not(.opt) {
+            form[action="/board/write/looksam"] *:not(.opt) {
                 color: black !important;
             }
 
@@ -380,7 +381,7 @@
 
             #article-write-button,
             #addPollBtn,
-            a[href="https://tgd.kr/looksam"].btn.btn-default {
+            a[href="/looksam"].btn.btn-default {
                 background: rgb(150, 125, 77) !important;
                 border: 0;
                 border-radius: 50000px;
