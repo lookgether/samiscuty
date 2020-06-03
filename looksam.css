@@ -391,7 +391,7 @@
                 color: white !important;
             }
 
-            #main-content>div.frame>div:nth-child(2)>div {
+            #main-content>div.frame>div:nth-child(2)>div:not(.article-list-row) {
                 background: transparent !important;
             }
 
