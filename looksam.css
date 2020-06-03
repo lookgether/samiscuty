@@ -140,10 +140,6 @@
                 background: transparent !important;
             }
 
-            #article-list #article-option-area {
-                display: none;
-            }
-
             #board-info #board-info-bottom #addFavoriteBtn #article-list-category {
                 background: rgb(210, 177, 109) !important;
             }
