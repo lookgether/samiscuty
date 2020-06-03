@@ -1,4 +1,4 @@
- @media (min-width: 600px) {
+@media (min-width: 600px) {
             header .row>div:nth-child(1)>a {
                 display: block;
                 height: 50px;
@@ -26,7 +26,7 @@
             }
 
             #viewers-area {
-                margin-right: 80px;
+                /* margin-right: 80px;   */
                 float: right;
             }
 
@@ -34,7 +34,8 @@
                 line-height: 24px;
                 display: block;
                 float: right;
-                color: black !important;
+                color: white !important;
+
             }
 
             #board-info #viewers-area #viewers:before {
@@ -240,7 +241,11 @@
             #board-info h1 {
                 border-color: rgb(123, 126, 105);
                 padding-bottom: 5px;
-                display: none;
+                padding: 8px 1em;
+            }
+
+            #board-info h1>a::after {
+                content: " 마이너 갤러리"
             }
 
             #board-info #board-info-bottom {
