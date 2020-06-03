@@ -230,7 +230,9 @@
         border-color: rgba(150, 125, 77, 0.5);
         border-right: 0;
         border-left: 0;
+        color: #fff;
     }
+    #article-list>.article-list-row>.item>.list-title>.title-value{color:#fff;}
 
     #article-list>.article-list-row>.item>.list-title>.list-writer {
         /* border: 0 !important; */
