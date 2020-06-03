@@ -1,4 +1,4 @@
- @media (min-width: 600px) {
+@media (min-width: 600px) {
             header .row>div:nth-child(1)>a {
                 display: block;
                 height: 50px;
@@ -302,9 +302,10 @@
             #article-list>.article-list-row>.item>.list-title>a:visited {
                 color: white !important;
             }
-      #article-list>.article-list-row>.item>.list-title>a:visited{
+            #article-list>.article-list-row>.item>.list-title>a:visited{
                 color: grey !important;
             }
+
             #article-list>.article-list-row.hot {
                 background-color: rgba(210, 177, 109, 0.4) !important;
 
@@ -496,6 +497,7 @@
                 border: none;
                 color: transparent !important;
                 outline: none;
+                background-color: transparent;
                 box-shadow: none;
                 width: 120px;
                 height: 56px;
