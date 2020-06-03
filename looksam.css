@@ -354,7 +354,7 @@
                                 color: rgb(210, 177, 109) !important;
                         }
 
-                        form[action="https://tgd.kr/board/write/looksam"] *:not(.opt) {
+                        form[action="/board/write/looksam"] *:not(.opt) {
                                 color: black !important;
                         }
 
