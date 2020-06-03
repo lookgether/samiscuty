@@ -379,7 +379,7 @@
                 color: white !important;
             }
 
-            #main-content div {
+            #main-content>div.frame>div:nth-child(2)>div {
                 background: transparent !important;
             }
 
@@ -393,5 +393,23 @@
 
             #article-content-wrapper>.vote-area {
                 border: 0;
+            }
+
+            #article-content-wrapper>.footer {
+                background: transparent !important;
+            }
+
+            #article-reply-area #reply-real-area .reply,
+            #article-reply-area #reply-best-area .reply div {
+                background: transparent !important;
+            }
+
+            #article-content-wrapper>.header {
+                background: transparent !important;
+            }
+
+            #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+            #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+                color: rgb(150, 125, 77);
             }
         }
