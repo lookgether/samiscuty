@@ -421,4 +421,9 @@
                         #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
                                 color: rgb(150, 125, 77);
                         }
+  
+                        #article-reply-area #reply-real-area .reply>.reply-header,
+                        #article-reply-area #reply-best-area .reply>.reply-header {
+                                background: transparent;
+                        }
                 }
