@@ -545,4 +545,8 @@
                 color: white !important;
 
             }
+  #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{
+   background:transparent;
+  }
+ 
         }
